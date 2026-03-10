@@ -1,0 +1,105 @@
+data:
+  pretrain_path: "data/pretrain.parquet"
+  train_path: "data/train.parquet"
+  pretest_path: "data/pretest.parquet"
+  test_path: "data/test.parquet"
+  output_dir: "outputs/"
+  cache_dir: "cache/"
+
+columns:
+  event_id: "event_id"
+  client_id: "client_id"
+  timestamp: "event_time"
+  amount: "amount"
+  target: "target"           # raw: 0=green, 1=yellow, 2=red
+  mcc: "mcc"
+  currency: "currency"
+  channel: "channel"
+  merchant_id: "merchant_id"
+  device_id: "device_id"
+
+periods:
+  pretrain_start: "2023-10-01"
+  pretrain_end:   "2024-09-30"
+  train_start:    "2024-10-01"
+  train_end:      "2025-05-31"
+  pretest_start:  "2025-06-01"
+  pretest_end:    "2025-08-09"
+
+feature_engineering:
+  rolling_windows_hours: [1, 6, 24, 168, 720]
+  rolling_windows_days: [1, 7, 30, 90]
+  agg_funcs: ["count", "sum", "mean", "std", "max", "min"]
+  use_graph_features: true
+  use_sequence_features: true
+  sequence_max_len: 50
+  embedding_dim: 32
+
+validation:
+  n_folds: 5
+  gap_days: 7
+  strategy: "temporal"
+
+models:
+  lgbm:
+    enabled: true
+    params:
+      objective: "binary"
+      metric: "average_precision"
+      boosting_type: "gbdt"
+      num_leaves: 127
+      learning_rate: 0.05
+      n_estimators: 2000
+      min_child_samples: 50
+      feature_fraction: 0.7
+      bagging_fraction: 0.8
+      bagging_freq: 5
+      reg_alpha: 0.1
+      reg_lambda: 0.1
+      scale_pos_weight: 20
+      n_jobs: -1
+      verbosity: -1
+      early_stopping_rounds: 100
+
+  catboost:
+    enabled: true
+    params:
+      loss_function: "Logloss"
+      eval_metric: "AUC"
+      iterations: 2000
+      learning_rate: 0.05
+      depth: 8
+      l2_leaf_reg: 3.0
+      od_wait: 100
+      class_weights: [1, 20]
+      verbose: 200
+
+  xgboost:
+    enabled: true
+    params:
+      objective: "binary:logistic"
+      eval_metric: "aucpr"
+      n_estimators: 2000
+      max_depth: 8
+      learning_rate: 0.05
+      subsample: 0.8
+      colsample_bytree: 0.7
+      scale_pos_weight: 20
+      tree_method: "hist"
+      early_stopping_rounds: 100
+      verbosity: 0
+
+  mlp:
+    enabled: true
+    hidden_dims: [512, 256, 128, 64]
+    dropout: 0.3
+    lr: 0.001
+    epochs: 50
+    batch_size: 4096
+    patience: 10
+
+stacking:
+  method: "rank_average"     # rank_average | logistic | optuna_weights
+  weights_optuna_trials: 100
+
+random_seed: 42

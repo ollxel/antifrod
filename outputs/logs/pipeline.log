@@ -1,0 +1,157 @@
+2026-03-10 20:22:26,134 [INFO] main: Starting pipeline in mode: FAST
+2026-03-10 20:22:26,134 [INFO] main: Output dir: /Users/noname/projects/files/outputs
+2026-03-10 20:22:26,134 [INFO] main: ============================================================
+2026-03-10 20:22:26,134 [INFO] main: STEP 1: Loading data
+2026-03-10 20:22:26,134 [INFO] main: ============================================================
+2026-03-10 20:22:26,134 [INFO] src.data_loader: Loading train.parquet...
+2026-03-10 20:24:44,458 [INFO] main: Starting pipeline in mode: FAST
+2026-03-10 20:24:44,459 [INFO] main: Output dir: /Users/noname/projects/files/outputs
+2026-03-10 20:24:44,459 [INFO] main: ============================================================
+2026-03-10 20:24:44,459 [INFO] main: STEP 1: Loading data
+2026-03-10 20:24:44,459 [INFO] main: ============================================================
+2026-03-10 20:52:25,681 [INFO] main: Starting pipeline in mode: FAST
+2026-03-10 20:52:25,681 [INFO] main: Output dir: /Users/noname/projects/files/outputs
+2026-03-10 20:52:25,681 [INFO] main: ============================================================
+2026-03-10 20:52:25,681 [INFO] main: STEP 1: Loading data
+2026-03-10 20:52:25,681 [INFO] main: ============================================================
+2026-03-10 20:52:25,681 [INFO] src.data_loader: Loading pretrain.parquet...
+2026-03-10 20:52:25,724 [INFO] src.data_loader: Loading train.parquet...
+2026-03-10 20:52:25,726 [INFO] src.data_loader: Loading pretest.parquet...
+2026-03-10 20:52:25,726 [INFO] src.data_loader: Loading test.parquet...
+2026-03-10 20:52:25,726 [INFO] src.data_loader: Loaded: pretrain=yes, train=yes, pretest=yes, test=yes
+2026-03-10 20:52:25,726 [INFO] main: FAST MODE: sampling 10k clients
+2026-03-10 20:57:51,720 [INFO] main: Starting pipeline in mode: FAST
+2026-03-10 20:57:51,720 [INFO] main: Output dir: /Users/noname/projects/files/outputs
+2026-03-10 20:57:51,720 [INFO] main: ============================================================
+2026-03-10 20:57:51,720 [INFO] main: STEP 1: Loading data
+2026-03-10 20:57:51,720 [INFO] main: ============================================================
+2026-03-10 20:57:51,721 [INFO] src.data_loader: Loading pretrain.parquet...
+2026-03-10 20:57:51,742 [INFO] src.data_loader: Loading train.parquet...
+2026-03-10 20:57:51,745 [INFO] src.data_loader: Loading pretest.parquet...
+2026-03-10 20:57:51,745 [INFO] src.data_loader: Loading test.parquet...
+2026-03-10 20:57:51,746 [INFO] src.data_loader: Loaded: pretrain=yes, train=yes, pretest=yes, test=yes
+2026-03-10 20:57:51,746 [INFO] main: FAST MODE: sampling 10k clients
+2026-03-10 22:12:45,887 [INFO] main: Starting pipeline in mode: FAST
+2026-03-10 22:12:45,888 [INFO] main: Output dir: /Users/noname/projects/antifrod/files/outputs
+2026-03-10 22:12:45,888 [INFO] main: ============================================================
+2026-03-10 22:12:45,888 [INFO] main: STEP 1: Loading data
+2026-03-10 22:12:45,888 [INFO] main: ============================================================
+2026-03-10 22:13:02,590 [INFO] main: Starting pipeline in mode: FAST
+2026-03-10 22:13:02,591 [INFO] main: Output dir: /Users/noname/projects/antifrod/files/outputs
+2026-03-10 22:13:02,591 [INFO] main: ============================================================
+2026-03-10 22:13:02,591 [INFO] main: STEP 1: Loading data
+2026-03-10 22:13:02,591 [INFO] main: ============================================================
+2026-03-10 22:14:48,070 [INFO] main: Starting pipeline in mode: FAST
+2026-03-10 22:14:48,070 [INFO] main: Output dir: /Users/noname/projects/antifrod/files/outputs
+2026-03-10 22:14:48,070 [INFO] main: ============================================================
+2026-03-10 22:14:48,070 [INFO] main: STEP 1: Loading data
+2026-03-10 22:14:48,070 [INFO] main: ============================================================
+2026-03-10 22:14:48,070 [INFO] src.data_loader: Loading pretrain.parquet...
+2026-03-10 22:14:48,089 [INFO] src.data_loader: Loading train.parquet...
+2026-03-10 22:14:48,092 [INFO] src.data_loader: Loading pretest.parquet...
+2026-03-10 22:14:48,092 [INFO] src.data_loader: Loading test.parquet...
+2026-03-10 22:14:48,093 [INFO] src.data_loader: Loaded: pretrain=yes, train=yes, pretest=yes, test=yes
+2026-03-10 22:14:48,093 [INFO] main: FAST MODE: sampling 10k clients
+2026-03-10 22:15:52,392 [INFO] main: Starting pipeline in mode: FAST
+2026-03-10 22:15:52,393 [INFO] main: Output dir: /Users/noname/projects/antifrod/files/outputs
+2026-03-10 22:15:52,393 [INFO] main: ============================================================
+2026-03-10 22:15:52,393 [INFO] main: STEP 1: Loading data
+2026-03-10 22:15:52,393 [INFO] main: ============================================================
+2026-03-10 22:15:52,393 [INFO] src.data_loader: Loading pretrain.parquet...
+2026-03-10 22:15:52,410 [INFO] src.data_loader: Loading train.parquet...
+2026-03-10 22:15:52,413 [INFO] src.data_loader: Loading pretest.parquet...
+2026-03-10 22:15:52,414 [INFO] src.data_loader: Loading test.parquet...
+2026-03-10 22:15:52,415 [INFO] src.data_loader: Loaded: pretrain=yes, train=yes, pretest=yes, test=yes
+2026-03-10 22:15:52,415 [INFO] main: FAST MODE: sampling 10k clients
+2026-03-10 22:16:13,005 [INFO] main: Starting pipeline in mode: FAST
+2026-03-10 22:16:13,005 [INFO] main: Output dir: /Users/noname/projects/antifrod/files/outputs
+2026-03-10 22:16:13,006 [INFO] main: ============================================================
+2026-03-10 22:16:13,006 [INFO] main: STEP 1: Loading data
+2026-03-10 22:16:13,006 [INFO] main: ============================================================
+2026-03-10 22:16:13,006 [INFO] src.data_loader: Loading pretrain.parquet...
+2026-03-10 22:16:13,009 [INFO] src.data_loader: Loading train.parquet...
+2026-03-10 22:16:13,012 [INFO] src.data_loader: Loading pretest.parquet...
+2026-03-10 22:16:13,012 [INFO] src.data_loader: Loading test.parquet...
+2026-03-10 22:16:13,013 [INFO] src.data_loader: Loaded: pretrain=yes, train=yes, pretest=yes, test=yes
+2026-03-10 22:16:13,013 [INFO] main: FAST MODE: sampling 10k clients
+2026-03-10 22:16:49,976 [INFO] main: Starting pipeline in mode: FAST
+2026-03-10 22:16:49,977 [INFO] main: Output dir: /Users/noname/projects/antifrod/files/outputs
+2026-03-10 22:16:49,977 [INFO] main: ============================================================
+2026-03-10 22:16:49,977 [INFO] main: STEP 1: Loading data
+2026-03-10 22:16:49,977 [INFO] main: ============================================================
+2026-03-10 22:16:49,977 [INFO] src.data_loader: Loading pretrain.parquet...
+2026-03-10 22:16:49,980 [INFO] src.data_loader: Loading train.parquet...
+2026-03-10 22:16:49,983 [INFO] src.data_loader: Loading pretest.parquet...
+2026-03-10 22:16:49,983 [INFO] src.data_loader: Loading test.parquet...
+2026-03-10 22:16:49,984 [INFO] src.data_loader: Loaded: pretrain=yes, train=yes, pretest=yes, test=yes
+2026-03-10 22:16:49,984 [INFO] main: FAST MODE: sampling 10k clients
+2026-03-10 22:17:43,434 [INFO] main: Starting pipeline in mode: FAST
+2026-03-10 22:17:43,435 [INFO] main: Output dir: /Users/noname/projects/antifrod/files/outputs
+2026-03-10 22:17:43,435 [INFO] main: ============================================================
+2026-03-10 22:17:43,435 [INFO] main: STEP 1: Loading data
+2026-03-10 22:17:43,435 [INFO] main: ============================================================
+2026-03-10 22:17:43,435 [INFO] src.data_loader: Loading pretrain.parquet...
+2026-03-10 22:17:43,439 [INFO] src.data_loader: Loading train.parquet...
+2026-03-10 22:17:43,442 [INFO] src.data_loader: Loading pretest.parquet...
+2026-03-10 22:17:43,443 [INFO] src.data_loader: Loading test.parquet...
+2026-03-10 22:17:43,444 [INFO] src.data_loader: Loaded: pretrain=yes, train=yes, pretest=yes, test=yes
+2026-03-10 22:17:43,444 [INFO] main: FAST MODE: sampling 10k clients
+2026-03-10 22:17:48,462 [INFO] main: ============================================================
+2026-03-10 22:17:48,464 [INFO] main: STEP 2: Feature Engineering
+2026-03-10 22:17:48,464 [INFO] main: ============================================================
+2026-03-10 22:17:48,464 [INFO] main: Building pretrain client profiles...
+2026-03-10 22:17:48,464 [INFO] src.feature_engineering: Building client pretrain profiles...
+2026-03-10 22:18:42,678 [INFO] main: Starting pipeline in mode: FAST
+2026-03-10 22:18:42,678 [INFO] main: Output dir: /Users/noname/projects/antifrod/files/outputs
+2026-03-10 22:18:42,678 [INFO] main: ============================================================
+2026-03-10 22:18:42,678 [INFO] main: STEP 1: Loading data
+2026-03-10 22:18:42,678 [INFO] main: ============================================================
+2026-03-10 22:18:42,679 [INFO] src.data_loader: Loading pretrain.parquet...
+2026-03-10 22:18:42,688 [INFO] src.data_loader: Loading train.parquet...
+2026-03-10 22:18:42,691 [INFO] src.data_loader: Loading pretest.parquet...
+2026-03-10 22:18:42,692 [INFO] src.data_loader: Loading test.parquet...
+2026-03-10 22:18:42,693 [INFO] src.data_loader: Loaded: pretrain=yes, train=yes, pretest=yes, test=yes
+2026-03-10 22:18:42,693 [INFO] main: FAST MODE: sampling 10k clients
+2026-03-10 22:18:47,303 [INFO] main: ============================================================
+2026-03-10 22:18:47,305 [INFO] main: STEP 2: Feature Engineering
+2026-03-10 22:18:47,305 [INFO] main: ============================================================
+2026-03-10 22:18:47,305 [INFO] main: Building pretrain client profiles...
+2026-03-10 22:18:47,305 [INFO] src.feature_engineering: Building client pretrain profiles...
+2026-03-10 22:19:03,463 [INFO] main:   Profile: 100,000 clients
+2026-03-10 22:19:03,474 [INFO] main: Building train features...
+2026-03-10 22:19:03,475 [INFO] src.feature_engineering: Building features...
+2026-03-10 22:19:03,485 [INFO] src.feature_engineering:   ✓ Datetime features
+2026-03-10 22:19:03,487 [INFO] src.feature_engineering:   ✓ Time delta features
+2026-03-10 22:19:12,213 [INFO] src.feature_engineering:   Novelty feature: is_new_mcc_code
+2026-03-10 22:19:12,411 [INFO] src.feature_engineering:   Novelty feature: is_new_channel_indicator_type
+2026-03-10 22:19:12,605 [INFO] src.feature_engineering:   Novelty feature: is_new_currency_iso_cd
+2026-03-10 22:19:12,605 [INFO] src.feature_engineering:   ✓ Novelty features
+2026-03-10 22:19:12,610 [INFO] src.feature_engineering:   ✓ Yellow signal features
+2026-03-10 22:19:14,734 [INFO] src.feature_engineering:   ✓ Pretrain profile joined
+2026-03-10 22:20:24,360 [INFO] main: Starting pipeline in mode: FAST
+2026-03-10 22:20:24,361 [INFO] main: Output dir: /Users/noname/projects/antifrod/files/outputs
+2026-03-10 22:20:24,361 [INFO] main: ============================================================
+2026-03-10 22:20:24,361 [INFO] main: STEP 1: Loading data
+2026-03-10 22:20:24,361 [INFO] main: ============================================================
+2026-03-10 22:20:24,361 [INFO] src.data_loader: Loading pretrain.parquet...
+2026-03-10 22:20:24,384 [INFO] src.data_loader: Loading train.parquet...
+2026-03-10 22:20:24,386 [INFO] src.data_loader: Loading pretest.parquet...
+2026-03-10 22:20:24,387 [INFO] src.data_loader: Loading test.parquet...
+2026-03-10 22:20:24,388 [INFO] src.data_loader: Loaded: pretrain=yes, train=yes, pretest=yes, test=yes
+2026-03-10 22:20:24,388 [INFO] main: FAST MODE: sampling 10k clients
+2026-03-10 22:20:31,650 [INFO] main: ============================================================
+2026-03-10 22:20:31,656 [INFO] main: STEP 2: Feature Engineering
+2026-03-10 22:20:31,657 [INFO] main: ============================================================
+2026-03-10 22:20:31,657 [INFO] main: Building pretrain client profiles...
+2026-03-10 22:20:31,657 [INFO] src.feature_engineering: Building client pretrain profiles...
+2026-03-10 22:21:10,018 [INFO] main:   Profile: 100,000 clients
+2026-03-10 22:21:10,036 [INFO] main: Building train features...
+2026-03-10 22:21:10,036 [INFO] src.feature_engineering: Building features...
+2026-03-10 22:21:10,051 [INFO] src.feature_engineering:   ✓ Datetime features
+2026-03-10 22:21:10,053 [INFO] src.feature_engineering:   ✓ Time delta features
+2026-03-10 22:21:22,560 [INFO] src.feature_engineering:   Novelty feature: is_new_mcc_code
+2026-03-10 22:21:22,812 [INFO] src.feature_engineering:   Novelty feature: is_new_channel_indicator_type
+2026-03-10 22:21:23,024 [INFO] src.feature_engineering:   Novelty feature: is_new_currency_iso_cd
+2026-03-10 22:21:23,024 [INFO] src.feature_engineering:   ✓ Novelty features
+2026-03-10 22:21:23,030 [INFO] src.feature_engineering:   ✓ Yellow signal features
+2026-03-10 22:21:25,480 [INFO] src.feature_engineering:   ✓ Pretrain profile joined

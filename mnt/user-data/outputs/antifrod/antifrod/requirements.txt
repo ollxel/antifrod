@@ -1,0 +1,30 @@
+# Core
+polars>=0.20.0
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+PyYAML>=6.0
+
+# Gradient boosting
+lightgbm>=4.1.0
+catboost>=1.2.0
+xgboost>=2.0.0
+
+# Deep learning (optional but recommended)
+torch>=2.1.0
+
+# Optimization
+optuna>=3.4.0
+scipy>=1.11.0
+
+# EDA
+ydata-profiling>=4.6.0
+sweetviz>=2.3.0
+
+# Utils
+psutil>=5.9.0
+tqdm>=4.66.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.13.0
